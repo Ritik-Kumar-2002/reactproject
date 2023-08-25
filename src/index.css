@@ -7,7 +7,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.tog-wrap{
+  width:300px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  margin: 0px auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+h4{
+  padding: 0px;
+  margin: 0px;
+}
+.tog-image-box{
+  width: 80px;
+  height: 60px;
+  margin-right: 10px;
+}
+.tog-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+
 }
